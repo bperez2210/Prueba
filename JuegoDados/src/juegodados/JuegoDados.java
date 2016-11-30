@@ -15,8 +15,10 @@ public class JuegoDados {
      */
     public static void main(String[] args) {
         Dados d1 = new Dados();
+        Dados d2 = new Dados();
         Jugador j1 = new Jugador();
         j1.tiraDados(d1);
+        j1.tiraDados(d2);
     }
     
 }
